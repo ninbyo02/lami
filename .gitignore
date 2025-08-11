@@ -1,0 +1,68 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.pyo
+
+# --- 仮想環境 ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- 環境設定・秘密情報 ---
+.env
+.env.*
+*.key
+*.pem
+*.crt
+secrets.json
+
+# --- ログ・一時ファイル ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# --- ビルド結果 / 出力物 ---
+dist/
+build/
+out/
+*.spec
+
+# --- モデルファイル・データ ---
+*.gguf
+*.bin
+*.pt
+*.onnx
+*.ckpt
+*.h5
+*.tflite
+*.npz
+*.npy
+*.pkl
+
+# --- IDE / エディタ ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS固有ファイル ---
+.DS_Store
+Thumbs.db
+
+# --- Termux / Android 関連 ---
+# Termux の内部キャッシュ
+.cache/
+# Android Studio ビルド
+.gradle/
+local.properties
+captures/
+app/build/
+app/release/
+
